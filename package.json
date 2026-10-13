@@ -4,5 +4,22 @@
     "tsc": "^2.0.4",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
-  }
+  },
+  "name": "aula07",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbianchi/Aula07.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/devbianchi/Aula07/issues"
+  },
+  "homepage": "https://github.com/devbianchi/Aula07#readme"
 }
