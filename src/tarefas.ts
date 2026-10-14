@@ -48,3 +48,12 @@ export async function remover(id: number, caminho: string): Promise<Tarefa | nul
     await salvarTarefas(caminho, novaListaTarefas);
     return tarefaRemovida;
 }
+
+async function buscarComSeguranca(caminho: string): Promise<string | null> {
+    try {
+        const dados = await fs.readFile(caminho, "utf-8");
+        return dados;
+    } catch {
+        return null;
+    }
+}
